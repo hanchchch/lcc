@@ -7,6 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+transformers = { git = "https://github.com/huggingface/transformers.git", branch = "main" }
+peft = { git = "https://github.com/huggingface/peft.git", branch = "main" }
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3.0"
